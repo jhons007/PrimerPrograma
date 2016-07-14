@@ -1,7 +1,7 @@
 import modulo
 import sys,os,time
 def nombre():
-    print("ingrese su nombre")
+    print("ingrese su nombre por favor")
     global a
     a=input()
     while(not modulo.verificar(a)):
